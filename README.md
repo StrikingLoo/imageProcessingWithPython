@@ -1,4 +1,5 @@
 Image processing projects in Python using PIL.
+
 filters.py has two small methods that, given a picture, will either return its negative version or apply a filter that will turn all its pixels to a given hue, maintaining brightness.
 For instance a picture of a grey circle on a darker grey background, given the 'blue' hue (0,0,255), will return a light-blue circle on a blue background.
 
