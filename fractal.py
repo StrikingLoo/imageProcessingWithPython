@@ -9,9 +9,9 @@ def generateMandelbrot(size,maxIts,name):
 	values = []
 	print(datetime.datetime.now().time())
 	for line in range(img.height):
-		
+		y0 = float(line/img.height)*3.5 -2.0 
 		for column in range(img.width):
-			y0 = float(line/img.height)*3.5 -2.0 
+			
 			x = 0
 			y = 0 #these two iterate 
 			
