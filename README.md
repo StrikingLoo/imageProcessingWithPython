@@ -7,3 +7,5 @@ compress.py is my first incursion into image compression algorithms, and applies
 
 fractal.py generates Mandelbrot Fractals of a given resolution. It is a bit slow for a big enough resolution, since it is a computationally tasking process.
 
+
+ultimateFractal.jpg was created with fractal.py, and it's negative version is just the result of applying the negative filter to it.
